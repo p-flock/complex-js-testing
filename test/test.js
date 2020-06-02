@@ -29,7 +29,8 @@ describe('Complex class implementation', function() {
     assert.equal(true, true);
   });
   it('Equality a.equals(b)', function() {
-    //TODO implement equality function and write tests
-    assert.equal(true, true);
+    var a = new Complex(4, 7);
+    var b = new Complex(4, 7);
+    assert.equal(true, a.equals(b));
   });
 });

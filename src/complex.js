@@ -16,6 +16,9 @@ Complex.prototype = {
   sub: function(o) {
     return new Complex(this.real - o.real, this.imag - o.imag);
   },
+  equals: function(o) {
+    return (this.real === o.real) && (this.imag === o.imag);
+  },
   mult: function(o) {
     var real_part = (this.real * o.real) - (this.imag * o.imag)
     var imag_part = (this.real * o.imag) + (this.imag * o.real)
