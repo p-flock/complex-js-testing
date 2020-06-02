@@ -1,0 +1,16 @@
+{
+  "name": "complex-testing",
+  "version": "0.0.1",
+  "description": "Implementation of a complex numbers class in javascript to be used as part of a unit-testing workshop",
+  "repository": {
+    "type": "",
+    "url": "",
+    "license": "MIT"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}
