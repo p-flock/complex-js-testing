@@ -20,7 +20,7 @@ describe('Complex class implementation', function() {
   it('Subtraction: a.sub(b)', function() {
     var a = new Complex(4, 7);
     var b = new Complex(3, 6);
-    var c = a.add(b)
+    var c = a.sub(b)
     assert.equal(1, c.real);
     assert.equal(1, c.imag);
   });
